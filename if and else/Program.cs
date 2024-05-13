@@ -9,11 +9,13 @@ void IsNumber()
     {
         sameNumber = true;
         Console.WriteLine("This number is same!!!");
+        Console.Beep();
     }
     else
     {
         sameNumber = false;
         Console.WriteLine("This number is NOT same!!!");
+        Console.Beep();
     }
 }
 
